@@ -17,14 +17,6 @@ on:
         options: 
         - us-east-1
         - us-east-2
-
-      ami_id:
-        desctiption: "Provide AMI ID"
-        required: true
-
-      instance_type: 
-        description: "Provide Instace Type"
-        required: true
         
 jobs:
   deploy:
